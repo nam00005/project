@@ -1,0 +1,166 @@
+body {
+    background-color: floralwhite;
+}
+
+html,body {
+    background-position: center;
+    background-size: cover;
+    border: 0;
+    margin: 0;
+    min-height: 100%;
+	padding: 0;
+    width: auto;
+}
+
+.home {
+    background-image: url(/assets/images/aerial-view.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+/*--START Masthead--*/
+.masthead {
+    background: rgba(255, 255, 255, 0.45);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width:100%;
+}
+
+.masthead-home, .masthead-home a:link, .masthead-home a:visited {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.masthead-border {
+    border: #fff thick solid;
+    padding-right: 3px;
+}
+
+.masthead-beer a:link, .masthead-beer a:visited{
+    background: rgba(220, 203, 181, 0.5);
+    background: #dccbb5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width:100%;
+}
+
+.masthead-interior {
+    background: #00a99d;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width:100%;
+}
+/* END Masthead */
+
+/* START Header Tags */
+h1,h2,h3,h4,h5,h6 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;}
+
+.feature-article {
+    font-size: 3rem;
+}
+
+.article-one {
+    font-size: 2.5rem;
+    margin: 10px 0 0 0;
+}
+/* END Header Tags */
+
+.headline {
+    color: #4b1008;
+    font-family: 'Lato', sans-serif;
+    font-size: 75px;
+    margin-bottom: 0;
+}
+
+.deck {
+    color:#666666;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+}
+
+.lead {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.byline {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    margin: 5px;
+}
+
+p {
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px; 
+}
+
+.caption {
+    font-family: 'Dosis', sans-serif;
+}
+
+.top-left {
+    left: 16px;
+    position: absolute;
+    top: 8px;  
+}
+
+.bottom-right {
+    margin-bottom: 80px;
+    position: absolute;
+    right: 16px;
+}
+figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+figcaption {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px; 
+}
+
+/* START footer */
+
+.media {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.media a {
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.media a:hover {
+  background: floralwhite;
+  border: 1px solid white;
+  color: white;
+}
+/* END footer */

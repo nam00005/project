@@ -1,0 +1,46 @@
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: #00a99d;
+}
+
+h2 {
+    font-family: 'Playfair Display Bold Italic', arial;
+    text-shadow: 4px 4px 4px #aaa;
+	font-size: 56px;
+}
+
+
+.hero {
+	padding: 150px 0;
+    margin: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-image: url("./Photo/Oganic_A.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+
+p {
+    font-family: 'Playfair Display Bold Italic', arial;
+    font-size: 30px;
+}
+
+.hero a {
+    font-family: 'roboto';
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#footer {
+  font-size: 0.75rem;
+}

@@ -1,0 +1,167 @@
+body{
+  background: #F7F7F7;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 990px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+/* START Head */
+
+#Head {
+  position: relative;
+  height: 43.75rem;
+  padding: 0 25%;
+  background: url("./Photo/story3.png") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#Head:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3)    
+}
+#Head * {
+  position: relative; 
+}
+
+
+h1 {
+  padding-top: 10.4375rem;
+  font-family: 'Playfair Display Bold Italic', arial;
+  font-size: 8rem;
+  color: #e67300;
+
+}
+
+h11 {  
+  padding-bottom: 3.25rem;
+  font-family: 'Playfair Display Bold Italic', arial;
+  font-size: 9rem;
+  color: white;}
+
+
+/* END Head */
+
+
+
+/* START Body */
+
+#superfood {
+  padding: .875rem 15% .5rem 15%;
+}
+
+#superfood .byline {
+  padding: 0 10%;
+  margin-bottom: .05rem;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+#superfood h2 {
+  margin-bottom: 1rem;
+  line-height: 1;
+  font-size: 2rem;
+  color: #e67300;
+}
+
+
+.superfood .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.information p1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.superfood .information p {
+  font-size: 2rem;
+  width: 60%
+}
+
+.superfood .cutline {
+  width: 60%;
+}
+
+.superfood .cutline h4 {
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+ h5 {
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
+  color: #F7F7F7;
+}
+
+/* END Body */
+
+/* START Footer */
+
+footer {
+  position: relative;
+  height: 30rem;
+  padding: 7.8125rem 30% 0 30%;
+  background: url("./Photo/lemon.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  color: white;
+}
+
+footer strong {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-size: 2.25rem;
+ color:black;
+}
+
+footer p {
+  margin-bottom: 4.3125rem;
+    color:black;
+}
+
+footer .button {
+  padding: 1.25rem 3.75rem;
+  border-radius: 4px;
+  background-color: red;
+}
+
+@media only screen and (max-width: 560px) {
+  footer {
+    padding: 4.8125rem 15% 0 15%;
+  }
+}
+/* END Footer */
